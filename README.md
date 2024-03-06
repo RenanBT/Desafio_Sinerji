@@ -39,6 +39,6 @@ Ou altere tais parâmetros no arquivo "persistence.xml"
 
 Tentei desenvolver esta API da forma mais simples possível levando em consideração prazo para entrega 
 e as boas práticas apredidas no curso Especialista Backend Java Pro da escola EBAC.
-Optei por não utilizar um abiente dockerizado para simplificar a implementação e Maven para 
+Optei por não utilizar um ambiente dockerizado para simplificar a implementação e Maven para 
 não precisar importar arquivos ".jar" no momento de testar a API.
 Espero ter demonstrado as habilidades requeridas pelo teste. 
