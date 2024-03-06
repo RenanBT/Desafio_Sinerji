@@ -5,7 +5,6 @@ Criado por:  Renan Betereli
 [Linkedin](https://www.linkedin.com/in/renanbetereli/)
 [Github](https://github.com/RenanBT)
 
-[Github deste código](https://github.com/RenanBT/Desafio_Sinerji/tree/master)
 
 API desenvolvida utilizando hibernate para conectar o backend desenvolvido em Java ao BD (Postgresql), usando Maven como gerenciador de dependências.
 
