@@ -1,0 +1,49 @@
+
+<h:form>
+    <p:inputText value="#{pessoaMB.pessoa.nome}" />
+    <p:inputText value="#{pessoaMB.pessoa.idade}" />
+    <p:inputText value="#{pessoaMB.pessoa.sexo}" />
+    <p:commandButton value="Salvar" actionListener="#{pessoaMB.cadastrar}" />
+</h:form>
+
+<h:dataTable value="#{pessoaMB.listaPessoas}" var="pessoa">
+<h:column>
+    #{pessoa.id}
+</h:column>
+<h:column>
+    #{pessoa.nome}
+</h:column>
+<h:column>
+    #{pessoa.idade}
+</h:column>
+<h:column>
+    #{pessoa.sexo}
+</h:column>
+</h:dataTable>
+
+<h:form>
+<p:inputText value="#{pessoaMB.pessoa.nome}" />
+<p:inputText value="#{pessoaMB.pessoa.idade}" />
+<p:inputText value="#{pessoaMB.pessoa.sexo}" />
+<p:commandButton value="Atualizar" actionListener="#{pessoaMB.atualizar}" />
+</h:form>
+
+<h:dataTable value="#{pessoaMB.listaPessoas}" var="pessoa">
+<h:column>
+    #{pessoa.id}
+</h:column>
+<h:column>
+    #{pessoa.nome}
+</h:column>
+<h:column>
+    #{pessoa.idade}
+</h:column>
+<h:column>
+    #{pessoa.sexo}
+</h:column>
+<h:column>
+    <p:commandButton value="Deletar" actionListener="#{pessoaMB.deletar(pessoa.id)}" />
+</h:column>
+</h:dataTable>
+
+

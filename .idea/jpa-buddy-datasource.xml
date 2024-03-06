@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="3c38c78e-641a-48d2-aafd-54ee5a61602b" name="Desafio_Sinerji" url="jdbc:postgresql://localhost/Desafio_Sinerji" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
